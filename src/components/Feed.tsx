@@ -38,7 +38,6 @@ const Feed: React.FC = () => {
   }, []);
   return (
     <div className={styles.feed}>
-      text
       <TweetInput />
       {posts[0]?.id && (
         <>
